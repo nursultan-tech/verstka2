@@ -1,0 +1,61 @@
+.red{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+    ),
+    url(./images/backgroundImage1.png);
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+
+.navigation{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_title{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navigation_title_text-centre{
+    display: flex;
+    align-items: center;
+}
+
+.navigation_title_text-centre:hover{
+    cursor: pointer;
+}
+
+.navigation_option{
+    width: 40%;
+}
+
+.navigation_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navigation_list_item{
+    font-size: 15px;
+}
+
+.navigation_list_item:hover{
+    cursor: pointer;
+
+}
+
+    
